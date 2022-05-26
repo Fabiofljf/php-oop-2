@@ -2,8 +2,19 @@
 
 class Food extends Products 
     {
-        function __construct($price, $quantity, $size, $timeshipping)
+        // Variabili aggiuntive per questa categoria:
+
+        public $weight; // 1k, 2k.
+        public $kind; // uccelli, felini.
+        public $typefood; // corccantini, osso.
+
+
+        function __construct($price, $quantity, $size, $timeshipping, $weight ,$kind ,$typefood)
         {
             parent::__construct($price, $quantity, $size, $timeshipping);
+
+            $this->weight = $weight;
+            $this->kind = $kind;
+            $this->typefood = $typefood;
         }
     }
