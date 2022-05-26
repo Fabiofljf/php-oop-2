@@ -22,5 +22,5 @@ Il pagamento avviene con la carta di credito, che non deve essere scaduta.
 4. Creo delle funzioni nel file padre per:
 L'utente potrà sia comprare i prodotti senza registrarsi, oppure iscriversi e ricevere il 20% di sconto su tutti i prodotti.
 
-4.1. Intanto devo chiedere all'utente se è vuole comprare il prodotto registrandosi: Se si vuole registrare il prezzo è = Prezzo - 20% sennò niete.
+a. Intanto devo chiedere all'utente se è vuole comprare il prodotto registrandosi: Se si vuole registrare il prezzo è = Prezzo - 20% sennò niente.
 
