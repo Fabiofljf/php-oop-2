@@ -20,7 +20,8 @@ class Food extends Products
 
         public function getDiscount(){
             if($this->register = true){
-                $discount = 20;
+                $user = $this->price * 20 / 100;
+                $discount = $this->price - $user;
                 $this->price = $discount;
             }
             return $this->price;

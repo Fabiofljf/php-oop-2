@@ -24,7 +24,8 @@ class Products
 
     public function getDiscount(){
         if($this->register = true){
-            $discount = 20;
+            $discount = $this->price * 20 / 100;
+            $discount = $this->price - $user;
             $this->price = $discount;
         }
         return $this->price;
