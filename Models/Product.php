@@ -9,21 +9,24 @@ class Products
     public $quantity;
     public $size;
     public $timeshipping;
-    public $register = false;
-    public $discount = 0;
+    public $register;
 
     // Function construct.
-    public function __construct($price, $quantity, $size, $timeshipping, $register, $discount)
+    public function __construct($price, $quantity, $size, $timeshipping, $register)
     {
         $this->price = $price;
         $this->quantity = $quantity;
         $this->size = $size;
         $this->timeshipping = $timeshipping;
+        $this->register = $register;
+        
     }
 
-    // function getSale(){
-    //     if(User = true){
-    //         $this->discount = ($price * 20) / 100);
-    //     }
-    // }
+    public function getDiscount(){
+        if($this->register = true){
+            $discount = 20;
+            $this->price = $discount;
+        }
+        return $this->price;
+    }
 }
