@@ -7,6 +7,8 @@ require_once __DIR__ . '/SubCategory/Food.php'; // - Sub-categoria per cibo.
 
 require_once __DIR__ . '/SubCategory/Toys.php'; // - Sub-categoria giochi.
 
+require_once __DIR__ . '/SubCategory/Kennels.php'; // - Sub-categoria per cucce.
+
 
 // Provo a invocare un'istanza tipo.
 $product1 = new Food('$price', '$quantity', '$size', '$timeshipping', '$weight' ,'$kind' ,'$typefood');
@@ -15,3 +17,7 @@ var_dump($product1);
 // Provo a invocare un'istanza tipo.
 $product2 = new Toys('$price', '$quantity', '$size', '$timeshipping', '$type' ,'$typetoys');
 var_dump($product2);
+
+// Provo a invocare un'istanza tipo.
+$product3 = new Kennels('$price', '$quantity', '$size', '$timeshipping', '$type' ,'$typetoys');
+var_dump($product3);

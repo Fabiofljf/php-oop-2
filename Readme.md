@@ -14,5 +14,5 @@ Il pagamento avviene con la carta di credito, che non deve essere scaduta.
 
 1. Creo una cartella Models in cui vado a inserire un file Product.php che contiene la classe generica in riferimento al mio e-commerce di prodotti per animali.
 
-2. Creo una cartella SubCategory in cui vado a inserire le sotto-categorie di riferimento importando anche quelle che sono le variabili generiche.
+2. Creo una cartella SubCategory in cui vado a inserire le sotto-categorie di riferimento importando anche quelle che sono le variabili generiche (per ora: cibo, giochi, cucce).
 
