@@ -11,7 +11,7 @@ class Food extends Products
 
         function __construct($price, $quantity, $size, $timeshipping, $weight ,$kind ,$typefood)
         {
-            parent::__construct($price, $quantity, $size, $timeshipping);
+            parent::__construct($price, $quantity, $size, $timeshipping, $register, $discount);
 
             $this->weight = $weight;
             $this->kind = $kind;

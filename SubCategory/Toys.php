@@ -10,7 +10,7 @@ class Toys extends Products
 
         function __construct($price, $quantity, $size, $timeshipping, $type ,$typetoys)
         {
-            parent::__construct($price, $quantity, $size, $timeshipping);
+            parent::__construct($price, $quantity, $size, $timeshipping, $register, $discount);
 
             $this->type = $type;
             $this->typetoys = $typetoys;

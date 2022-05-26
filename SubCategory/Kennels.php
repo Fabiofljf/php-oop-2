@@ -10,7 +10,7 @@ class Kennels extends Products
 
         function __construct($price, $quantity, $size, $timeshipping, $typekennels ,$material)
         {
-            parent::__construct($price, $quantity, $size, $timeshipping);
+            parent::__construct($price, $quantity, $size, $timeshipping, $register, $discount);
 
             $this->typekennels = $typekennels;
             $this->material = $material;
