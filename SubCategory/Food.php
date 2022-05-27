@@ -18,5 +18,3 @@ class Food extends Products
             $this->typefood = $typefood;
         }
     }
-
-    var_dump($price);

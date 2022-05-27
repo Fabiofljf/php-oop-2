@@ -16,9 +16,10 @@ class User {
         if($this->register == true){
             $this->sconto = 0.20;
         }
+        return $this->sconto;
     }
 }
 
-$newUser = new User ('fabio', true, 0);
+$newUser = new User ('fabio', true, $sconto);
 $newUser->getsconto();
 var_dump($newUser);

@@ -23,12 +23,9 @@ class Products
         
     }
 
-    public function getDiscount($sconto){
-        if($this->register = true){
-            $discount = $this->price * $sconto;
-            $this->price = $discount;
-        }
+    public function getDiscount($user){
+        $discount = $this->price * $this->sconto;
+        $this->price = $discount;
         return $this->price;
     }
 }
-    
