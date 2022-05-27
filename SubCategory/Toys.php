@@ -8,9 +8,9 @@ class Toys extends Products
         public $typetoys; // gomma, legno.
 
 
-        function __construct($price, $quantity, $size, $timeshipping, $register, $type ,$typetoys)
+        function __construct($price, $quantity, $size, $timeshipping, $type ,$typetoys)
         {
-            parent::__construct($price, $quantity, $size, $timeshipping, $register);
+            parent::__construct($price, $quantity, $size, $timeshipping);
 
             $this->type = $type;
             $this->typetoys = $typetoys;

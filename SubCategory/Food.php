@@ -9,9 +9,9 @@ class Food extends Products
         public $typefood; // corccantini, osso.
 
 
-        function __construct($price, $quantity, $size, $timeshipping, $register, $weight ,$kind ,$typefood)
+        function __construct($price, $quantity, $size, $timeshipping, $weight ,$kind ,$typefood)
         {
-            parent::__construct($price, $quantity, $size, $timeshipping, $register);
+            parent::__construct($price, $quantity, $size, $timeshipping);
 
             $this->weight = $weight;
             $this->kind = $kind;

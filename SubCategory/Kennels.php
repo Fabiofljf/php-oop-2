@@ -8,9 +8,9 @@ class Kennels extends Products
         public $material; // legno, tessuto.
 
 
-        function __construct($price, $quantity, $size, $timeshipping, $register, $typekennels ,$material)
+        function __construct($price, $quantity, $size, $timeshipping, $typekennels ,$material)
         {
-            parent::__construct($price, $quantity, $size, $timeshipping, $register);
+            parent::__construct($price, $quantity, $size, $timeshipping);
 
             $this->typekennels = $typekennels;
             $this->material = $material;
