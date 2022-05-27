@@ -24,10 +24,10 @@
     <header id="site_header" class="bg-primary">
         <div class="container">
             <div class="row">
-                <div class="col">
-                    <h1>Benvenuto</h1>
+                <div class="col d-flex">
+                    <h1>Aminals Village</h1>
                 </div>
-                <div class="col">
+                <div class="col d-flex align-items-center justify-content-end">
                     <nav class="nav justify-content-center|justify-content-end">
                       <a class="nav-link active text-light" href="/PHP/php-oop-2/pages-web/home.php">Home</a>
                       <a class="nav-link text-light" href="/PHP/php-oop-2/pages-web/shop.php">Shop</a>

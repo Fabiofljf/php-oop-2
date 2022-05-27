@@ -17,13 +17,6 @@ class Food extends Products
             $this->kind = $kind;
             $this->typefood = $typefood;
         }
-
-        public function getDiscount(){
-            if($this->register = true){
-                $user = $this->price * 20 / 100;
-                $discount = $this->price - $user;
-                $this->price = $discount;
-            }
-            return $this->price;
-        }
     }
+
+    var_dump($price);

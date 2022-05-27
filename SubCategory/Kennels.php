@@ -16,12 +16,4 @@ class Kennels extends Products
             $this->material = $material;
         }
         
-        public function getDiscount(){
-            if($this->register = true){
-                $user = $this->price * 20 / 100;
-                $discount = $this->price - $user;
-                $this->price = $discount;
-            }
-            return $this->price;
-        }
     }

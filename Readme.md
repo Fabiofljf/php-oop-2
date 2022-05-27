@@ -24,3 +24,5 @@ L'utente potrà sia comprare i prodotti senza registrarsi, oppure iscriversi e r
 
 a. Intanto devo chiedere all'utente se è vuole comprare il prodotto registrandosi: Se si vuole registrare il prezzo è = Prezzo - 20% sennò niente.
 
+5. Stampo a Schermo.
+
