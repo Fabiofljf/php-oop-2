@@ -23,10 +23,9 @@ class Products
         
     }
 
-    public function getDiscount($register){
+    public function getDiscount($sconto){
         if($this->register = true){
-            $user = $this->price * 20 / 100;
-            $discount = $this->price - $user;
+            $discount = $this->price * $sconto;
             $this->price = $discount;
         }
         return $this->price;
