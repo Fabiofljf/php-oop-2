@@ -16,7 +16,7 @@ include __DIR__ . '/../db.php';
               <h4 class="card-title">Tipologia: <?= $food->typefood; ?></h4>
               <p class="card-text">Specie: <?= $food->kind; ?></p>
               <p class="card-text">Quantità nel sacco: <?= $food->weight; ?></p>
-              <p class="card-text">Prezzo: <?= $food->getDiscount($sconto); ?>&euro;</p>
+              <p class="card-text">Prezzo: <?= $food->price; ?>&euro;</p>
             </div>
           </div>
         </div>

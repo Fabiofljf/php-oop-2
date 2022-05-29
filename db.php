@@ -11,6 +11,9 @@ require_once __DIR__ . '/SubCategory/Toys.php'; // - Sub-categoria giochi.
 
 require_once __DIR__ . '/SubCategory/Kennels.php'; // - Sub-categoria per cucce.
 
+// Nome USER
+
+$newUser = new User ('fabio', true);
 
 // Prodotti FOOD:
 $foods =
@@ -21,7 +24,7 @@ $foods =
         new Food(3, 10, '500gr', '2day', '500gr', 'dogs', 'Dryfood'),
     ];
 
-
+// var_dump($foods); // - Dimensione trait
 
 
 // Prodotti TOYS:
